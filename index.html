@@ -29,23 +29,28 @@
       position: relative;
     }
 
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel button.owl-dot {
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      border: 1px solid #c4c4c4;
+      /* background-color: white; */
+
+    }
+
+    .owl-theme .owl-nav [class*=owl-]:hover {
+      background-color: #5CB85F;
+    }
+
+
     .item {
       background-color: #F1F3FF;
 
     }
 
-    .owl-nav>.owl-prev>span {
-      padding: 12px;
-      border: 1px solid black;
-      border-radius: 100%;
 
-    }
-
-    .owl-nav>.owl-next>span {
-      padding: 12px;
-      border: 1px solid black;
-      border-radius: 100%;
-    }
 
     .owl-nav>.owl-prev>span:hover,
     .owl-nav>.owl-next>span:hover {
@@ -97,6 +102,7 @@
       box-shadow: 1px -1px 3px;
       padding: 10px;
     }
+
 
 
     @media screen and (min-width:992px) {
